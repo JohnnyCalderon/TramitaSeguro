@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Tipos_de_tramites">
+
+
+    <LinearLayout
+        android:layout_width="249dp"
+        android:layout_height="397dp"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tramite1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Traimite1"
+            android:clickable="true"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:id="@+id/lisTramite1"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:text="Lista de requerimientos \n\ Tramite 1 \n\ Tramite 1 \n\ Tramite 1  "
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnTramiteEnviar1"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tramite2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Traimite2"
+            android:clickable="true"
+            android:onClick="onClick"
+            />
+
+        <TextView
+            android:id="@+id/lisTramite2"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:text="Lista de requerimientos \n\ Tramite 2  \n\ Tramite 2  \n\ Tramite 2 "
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnTramiteEnviar2"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tramite3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Traimite3"
+            android:clickable="true"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:id="@+id/lisTramite3"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:text="Lista de requerimientos \n\ Tramite 3  \n\ Tramite 3  \n\ Tramite 3 "
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnTramiteEnviar3"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CasaJuridica">
+
+    <LinearLayout
+        android:layout_width="249dp"
+        android:layout_height="397dp"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/casaJuridica1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="onClick2"
+            android:text="CasaJuridica1" />
+
+        <TextView
+            android:id="@+id/datosCasaJ1"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:text="Nombre: \n\ Dirección: \n\ Trabajadores: \n\   "
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btndatosCasaJ1"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/casaJuridica2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="onClick2"
+            android:text="CasaJuridica2" />
+
+        <TextView
+            android:id="@+id/datosCasaJ2"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:text="Nombre: \n\ Dirección: \n\ Trabajadores: \n\   "
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btndatosCasaJ2"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/casaJuridica3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="onClick2"
+            android:text="CasaJuridica3" />
+
+        <TextView
+            android:id="@+id/datosCasaJ3"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:text="Nombre: \n\ Dirección: \n\ Trabajadores: \n\   "
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btndatosCasaJ3"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
